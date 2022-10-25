@@ -13,7 +13,7 @@ function init() {
   
   horn_select.addEventListener('change', handleHornSelect);
  
-  volume_slider.addEventListener('change', handleVolumeSlider);
+  volume_slider.addEventListener('input', handleVolumeSlider);
 
   play_button.addEventListener('click', handlePlayButton);
 }
